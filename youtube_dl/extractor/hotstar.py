@@ -100,6 +100,10 @@ class HotStarIE(HotStarBaseIE):
         # only available via api v2
         'url': 'https://www.hotstar.com/tv/ek-bhram-sarvagun-sampanna/s-2116/janhvi-targets-suman/1000234847',
         'only_matching': True,
+    }, {
+        # api of vishal Testing
+        'url': 'https://www.hotstar.com/tv/radha-krishna/1260026801/mahadeva-in-disguise/1100043798',
+        'only_matching': True,
     }]
     _GEO_BYPASS = False
 
